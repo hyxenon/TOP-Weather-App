@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <div class="form-div">
+        <form class="location-form">
+            <label  for="location">Enter City Name: <input id="location" type="text"></label>
+            <button class="location-btn">Search</button>
+        </form>
+        <div class="change-metric">
+            <div class="change"></div>
+            <span class="c">C°</span>
+            <span class="f">F°</span>
+        </div>
+    </div>
+    
+    <div class="card-div">
+        <div class="card">
+            <h2 class="city"></h2>
+            <p class="temperature"></p>
+            <p class="feels-like"></p>
+            <p class="humidity"></p>
+            <p class="wind"></p>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy; Justine Edward P. Santos</p>
+    </footer>
+</body>
+</html>
